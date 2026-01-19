@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharjeel Shahzad - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">Sharjeel Shahzad</h1>
+                <div class="nav-right">
+                    <div class="header-social-links">
+                        <a href="https://www.linkedin.com/in/sharjeel-shahzad-193063386" target="_blank" class="header-social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Sharjeel-Shahzad1" target="_blank" class="header-social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <canvas id="particleCanvas"></canvas>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Hi, I'm <span class="highlight">Sharjeel Shahzad</span></h2>
+                <p class="tagline">I'm a <span class="typing-text"></span></p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/sharjeel-shahzad-193063386" target="_blank" class="social-icon" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Sharjeel-Shahzad1" target="_blank" class="social-icon" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <p>I am a Software Engineer specializing in Artificial Intelligence (AI) and Machine Learning (ML), with a strong passion for building intelligent, data-driven solutions. My expertise lies in developing and optimizing machine learning models, implementing AI algorithms, and applying predictive analytics to enhance performance and efficiency. I am highly proficient in Python and possess extensive experience in the entire ML workflow including data preprocessing, model training, evaluation, and deployment. With a solid foundation in Object-Oriented Programming (OOP) and experience in C and Java, I excel at adapting to different programming environments and solving complex problems effectively. My knowledge of SQL and database systems further strengthens my ability to design and integrate efficient data pipelines. I continuously explore advancements in deep learning, natural language processing, and data science, leveraging AI and ML to build impactful solutions that drive automation, informed decision-making, and enhanced user experiences.</p>
+            </div>
+            
+            <!-- Top Skills Highlight -->
+            <div class="top-skills-container">
+                <h3 class="top-skills-title">Top Skills</h3>
+                <div class="top-skills-grid">
+                    <div class="top-skill-box">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h4>Artificial Intelligence</h4>
+                    </div>
+                    <div class="top-skill-box">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h4>Python Programming</h4>
+                    </div>
+                    <div class="top-skill-box">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h4>Microsoft SQL Server</h4>
+                    </div>
+                    <div class="top-skill-box">
+                        <div class="skill-icon"><i class="fab fa-java"></i></div>
+                        <h4>Java</h4>
+                    </div>
+                    <div class="top-skill-box">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h4>C Programming</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title"><span>Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Bachelor's Degree, Computer Software Engineering</h3>
+                        <p class="institution">COMSATS University Islamabad</p>
+                        <p class="duration">Sep 2023 - Jul 2027</p>
+                        <p class="description">Pursuing Bachelor's degree in Computer Software Engineering with focus on software development, algorithms, and modern technologies.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Intermediate in Computer Sciences</h3>
+                        <p class="institution">Punjab Group Of Colleges</p>
+                        <p class="duration">Aug 2021 - May 2023</p>
+                        <p class="description">Completed Intermediate studies with Grade A, building foundation in Computer Sciences and programming fundamentals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-detailed-grid">
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>Expertise in building intelligent systems with AI algorithms and neural networks for automated decision-making and enhanced user experiences.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Machine Learning</h3>
+                    <p>Specialized in developing predictive models using supervised and unsupervised learning with expertise in data preprocessing and model deployment.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile Application Development</h3>
+                    <p>Skilled in creating cross-platform mobile applications with user-centric interfaces and optimal performance across devices.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="fas fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Full-stack development expertise in building scalable, secure web applications using modern frameworks and best practices.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="fas fa-database"></i></div>
+                    <h3>SQL Database</h3>
+                    <p>Proficient in designing and managing relational databases with Microsoft SQL Server, specializing in query optimization and data modeling.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="fab fa-python"></i></div>
+                    <h3>Python Programming</h3>
+                    <p>Advanced proficiency in Python for ML, data analysis, and software development using libraries like NumPy, Pandas, and scikit-learn.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="fas fa-code"></i></div>
+                    <h3>C Programming</h3>
+                    <p>Strong foundation in C with expertise in memory management, pointers, and developing high-performance system-level applications.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="fas fa-project-diagram"></i></div>
+                    <h3>Data Structures</h3>
+                    <p>Comprehensive knowledge of data structures including arrays, trees, graphs, and hash tables for optimal algorithmic efficiency.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Problem Solving Skills</h3>
+                    <p>Strong analytical mindset with expertise in algorithmic thinking, debugging, and developing innovative solutions to technical challenges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & <span>Internships</span></h2>
+            <div class="experience-grid">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>AI & ML Intern</h3>
+                        <p class="company"><strong>Innoverse.Pk</strong></p>
+                        <p class="duration">Aug 2025 - Sep 2025 · 2 months</p>
+                        <p class="duration">Punjab, Pakistan · Remote</p>
+                        <p class="description">During my internship at <strong>Innoverse.Pk</strong>, I gained hands-on experience with real-world datasets and machine learning concepts. I worked on data preprocessing techniques including feature selection, normalization, and handling missing values. Applied algorithms like linear regression and supervised learning methods while evaluating model performance using metrics. This experience strengthened my ML workflow understanding and enhanced my problem-solving approach for AI projects.</p>
+                        <div class="certificate-container">
+                            <img src="intern.jfif" alt="Innoverse.Pk Internship Certificate" class="certificate-image">
+                            <p class="certificate-label"><i class="fas fa-certificate"></i> Internship Certificate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>AI & ML Course</h3>
+                        <p class="company"><strong>Skillify</strong></p>
+                        <p class="duration">Completed</p>
+                        <p class="duration">Online Learning</p>
+                        <p class="description">Successfully completed a comprehensive AI and Machine Learning course at <strong>Skillify</strong>, gaining insights into fundamental AI principles and ML approaches. Developed expertise in data preparation, transformation techniques, and explored supervised and unsupervised algorithms including regression, classification, and clustering. Learned model optimization methods and gained structured understanding of the end-to-end ML pipeline. This course built a solid foundation for applying AI/ML concepts to real-world applications.</p>
+                        <div class="certificate-container">
+                            <img src="course.jfif" alt="Skillify AI/ML Course Certificate" class="certificate-image">
+                            <p class="certificate-label"><i class="fas fa-certificate"></i> Course Completion Certificate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="stay-tuned-container">
+                <p class="stay-tuned-text">Stay tuned!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in <span>Touch</span></h2>
+            <div class="contact-content">
+                <p>I'm always open to discussing new opportunities, collaborations, or just having a chat about technology!</p>
+                
+                <div class="contact-details-grid">
+                    <div class="contact-detail-box">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <h4>Email</h4>
+                        <a href="mailto:ssharjeel160@gmail.com">ssharjeel160@gmail.com</a>
+                    </div>
+                    <div class="contact-detail-box">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <h4>Phone</h4>
+                        <a href="tel:+923159446262">+92 3159446262</a>
+                    </div>
+                    <div class="contact-detail-box">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4>Location</h4>
+                        <p>DHA Lahore, Pakistan</p>
+                    </div>
+                </div>
+                
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/sharjeel-shahzad-193063386" target="_blank" class="contact-button">
+                        <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                    </a>
+                    <a href="https://github.com/Sharjeel-Shahzad1" target="_blank" class="contact-button">
+                        <i class="fab fa-github"></i> View GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sharjeel Shahzad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
